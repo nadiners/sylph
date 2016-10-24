@@ -1,0 +1,20 @@
+.bookgallery img{
+width: 70%;	
+}
+
+.cahiers-text{
+	margin-left: 100px; 
+}
+
+.cahiers img{
+	width: 100%;
+}
+
+.bold-title{
+	font-weight: bold;
+}
+
+.link a{
+	color: #E50000;
+	border-bottom: 1px solid;
+}

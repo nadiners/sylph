@@ -1,0 +1,76 @@
+
+
+a:link, a:hover, a:visited, a:active {text-decoration: none;}
+a {text-decoration: none;}
+ul li{list-style: none;}
+
+body{
+ font-family: "skolar-sans-latin", Helvetica;
+	color: #E50000;
+}
+
+.sidebar-nav a{
+	font-size: 13px;
+	color: #E50000;
+}
+.container-fluid{
+}
+.logo img{
+	width: 90%;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+.books a{text-decoration: none;}
+.books{
+	margin: 10px;
+}
+.now-on{
+	text-transform: uppercase;
+	letter-spacing: .1em;
+    font-weight: bold;}
+
+.books img{
+	width: 100%;
+}
+.book-title{
+	font-size: 15px;
+	text-align: center;
+	margin-bottom: 5px;
+}
+.book-author{
+	margin-top: 0;
+	font-size: 13px;
+	text-align: center;
+}
+.bookshelf{
+	display: block;
+}
+
+.categories li{
+	display: inline-block;
+	padding: 5px;
+}
+.sort{
+	margin-top: 10px;
+	border-bottom: 1px solid; 
+    width: 87%;
+}
+.search{
+	margin-top: 10px;
+}
+.social-media{margin-top: 10px}
+form p {margin-bottom: 2px;}
+
+/* ==========================================================================
+   Media queries
+   ========================================================================== */
+
+@media screen and (max-width:991px){
+
+
+
+}/* end max-width 991 */
+
+@media screen and (max-width:767px){
+
+}/* end max-width 767 */
