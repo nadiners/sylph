@@ -1,9 +1,10 @@
 .bookgallery img{
-width: 70%;	
+width: 50%;	
 }
 
 .cahiers-text{
-	margin-left: 100px; 
+	margin-top: 50px;
+	border-bottom: 1px solid;
 }
 
 .cahiers img{
@@ -18,3 +19,38 @@ width: 70%;
 	color: #E50000;
 	border-bottom: 1px solid;
 }
+
+.buy img{width: 40px;}
+.title-book{font-weight: bold;}
+.row{margin-left: 0;}
+.press{font-weight: bold;}
+.more-detail{
+	margin-top: 30px;
+	margin-left: -40px;}
+.more-detail li a{
+	text-decoration: none;
+	color: #e50000;
+	width: 250px;
+  -webkit-transition: all 1s ease-in-out;
+  -moz-transition: all 1s ease-in-out;
+  -o-transition: all 1s ease-in-out;
+  -ms-transition: all 1s ease-in-out;}
+
+.more-detail li a:hover {
+  -webkit-transform: translate(2em,0);
+  -moz-transform: translate(2em,0);
+  -o-transform: translate(2em,0);
+  -ms-transform: translate(2em,0);
+}
+.special{font-weight: bold;
+text-transform: uppercase;
+letter-spacing: 0.1em;}
+
+.bookshelf-cahier{margin-top: 50px;
+}
+.bookshelf-cahier li{list-style: none;}
+.cahiers-special a img{ width: 40px; }
+.cahiers-series img{
+z-index: -1;
+	margin-top:-90px;
+margin-bottom: 20px; }
