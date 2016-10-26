@@ -2,9 +2,11 @@
 
 .city{ text-transform: uppercase;
 	letter-spacing: .1em;
-	margin-bottom: 10px;
-	margin-top: 10px;
+	margin-bottom: 20px;
+	margin-top: 20px;
 }
 .store{
 font-weight: bold;
+margin-bottom: 5px;
 }
+.store a{ color: #E50000;}

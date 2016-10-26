@@ -5,8 +5,9 @@
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="bootstrap-3.3.7-dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/book.css">
+    <link rel="stylesheet" href="css/about.css">
     <link rel="icon" type="image/png" sizes="16x16" href="images/favicon.png">
-        <link href="bootstrap-3.3.7-dist/css/simple-sidebar.css" rel="stylesheet">
     <script src="https://use.typekit.net/ncy8iap.js"></script>
     <script>try{Typekit.load({ async: true });}catch(e){}</script>
     <script src="js/jquery-3.1.0.min.js"></script>
@@ -17,22 +18,19 @@
 </head>
 
 <body>
-    <div id="wrapper">
-       <div id="sidebar-wrapper" >
-      
+
+       <div class="col-md-2 sidebar">
         <ul class="sidebar-nav">
-      
-        <li class="logo"><a href="index.html"><img src="img/sylphlogo.svg"></a></li>
+        <div class="logo"><a href="index.html"><img src="img/sylphlogo.svg"></a></div>
 
-
-
-            <li><a href="">Current Titles</a></li>
-            <li><a href="">Coming Soon</a></li>
-            <li><a href="">The Cahiers Series</a></li>
+            <li><a href="index.html">Current Titles</a></li>
+            <li><a href="soon.html">Coming Soon</a></li>
+            <li><a href="cahier.html">The Cahiers Series</a></li>
             <li><a href="">Rasika</a></li>
             <li><a href="">Catalogue</a></li>
 
             <li class="sort">Filter</li>
+            <li><a href="">All Publications</a></li>
             <li><a href="">Fiction</a></li>
             <li><a href="">Poetry</a></li>
             <li><a href="">Essays</a></li>
@@ -40,14 +38,11 @@
             <li><a href="">Design and Art</a></li>
             <li><a href="">Limited Editions</a></li>
              <li><a href="">Out of Print</a></li>
-             <li><a href="">All Publications</a></li>
-
-    
+             
             <li class="sort"></li>
             <li class="now-on"><a href="about.html">About Us</a></li>
             <li><a href="contact.html">Contact</a></li>
-           <!--  <li><a href="articles.html">Articles | Reviews</a></li> -->
-            
+      
             <li class="search">
                 <form action="">
                     <p>Search</p>
@@ -67,19 +62,15 @@
                     <img src="img/icons/twitter.svg" width="30px">
                 </a>
             </li>
-
         </ul><!-- /sidebar -->
+
 </div><!-- end of sidebar-wrapper -->
 
         <!-- Page Content -->
-    <div id="page-content-wrapper">
-        <div class="container-fluid">
-    
-            <div class="aboutus">
-                
-<p>
-
-Based in London, Sylph Editions publish fiction, monographs, theoretical essays, limited-edition art and photography books, and different forms of experimental writing. The publications are presented either as individual books or as an ongoing series. The emphasis is on works in which image and text coexist, conceived as one. Every work is meticulously produced, care given equally to content and to form.
+        <div class="wrapper">
+        <div class="row aboutus">
+                 <div class="col-md-6">
+<p>Based in London, <span class="bold-title"> Sylph Editions </span>publish fiction, monographs, theoretical essays, limited-edition art and photography books, and different forms of experimental writing. The publications are presented either as individual books or as an ongoing series. The emphasis is on works in which image and text coexist, conceived as one. Every work is meticulously produced, care given equally to content and to form.
 
 Sylph Editions is also a design studio that specializes in book design and production.
 
@@ -87,36 +78,17 @@ SYLPH EDITIONS is an independent art and design studio that handles all forms of
 
 Our publications are available online, through this website, and at selected retailers listed on the bookshops page.
 </p>
-<p>Contact us</p>
+</div>
+</div><!-- /row -->
+<div class="row">
 
-<p>Bookshops</p>
-<ul>
-    <li>London</li>
-    <li>England</li>
-    <li>Paris</li>
-    <li>Berlin</li>
-    <li>New York</li>
-    <li>San Francisco</li>
-    <li>Los Angeles</li>
-    <li>Seattle</li>
-    <li>Portland</li>
-    <li>Denver</li>
-</ul>
+<div class="col-sm-4">
+<p><a href="zcontact.html">click here to see where you can find our publications</a></p>
 
-<p>Distribution</p>
-<p>Sylph Editions is distrbuted by University of Chicago Press. For details contact:
- 
-International orders
-US and Canada orders
- 
-See Sylph Editions on UCP website.</p>
-            </div>
-                    
-               
-            </div> <!-- /row -->
-            </ul>
-        </div> <!-- end of container-fluid -->
-    </div> <!-- end of page-content-wrapper -->
+
+</div><!-- /col-sm-4 -->
+            </div> <!-- /row /aboutus -->
+
 
 </div><!-- end of wrapper -->
 

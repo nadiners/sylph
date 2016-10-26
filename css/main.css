@@ -27,6 +27,8 @@ body{
     overflow: scroll;
  }
 
+.grid-item{width: 25%;}
+.grid-item--width2{width: 50%;}
 
 .sidebar-nav li {
     line-height: 20px;
