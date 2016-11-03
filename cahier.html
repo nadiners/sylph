@@ -11,6 +11,7 @@
     <script>try{Typekit.load({ async: true });}catch(e){}</script>
     <script src="js/jquery-3.1.0.min.js"></script>
     <script src="bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+    <script src="js/isotope.pkgd.min.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="UTF-8">
     <title>Sylph Editions</title>
@@ -24,8 +25,8 @@
 
             <li><a href="index.html">Current Titles</a></li>
             <li><a href="soon.html">Coming Soon</a></li>
-            <li class="now-on"><a href="cahiers.html">The Cahiers Series</a></li>
-            <li><a href="">Rasika</a></li>
+            <li> <span class="now-on">The Cahiers Series</span></li>
+            <li><a href="rasika.html">Rasika</a></li>
             <li><a href="">Catalogue</a></li>
 
             <li class="sort">Filter</li>
@@ -67,8 +68,8 @@
 
         <!-- Page Content -->
         <div class="wrapper">
-        <div class="row cahiers-text">
-            <div class="col-md-4">
+        <div class="row cahiers-top">
+            <div class="col-md-4 cahiers-text">
                 <span class="bold-title">The Cahiers Series</span> is published by Sylph Editions in collaboration with The American University of Paris. The goal of this series is to make available new explorations in writing, in translating, and in the areas linking these two activities.
                  <br><br>
                 Cahiers can be bought individually or in a boxed set of , at a reduced price. 
@@ -89,75 +90,79 @@
             </div>
 
             </div> <!-- /row -->
-<div class="row">
-             <ul class="bookshelf-cahier">
-                <li class="books col-sm-2">
+
+<div class="grid">
+            <ul class="bookshelf">
+
+                 <div class="grid-item books">
                 <a href="book.html">
                     <img src="img/cahiers/cover-cahier1.jpg" alt="">
                 </a>
                     <h1 class="book-title"><i>Translating Music</i></h1>
-                    <h2 class="book-author">Richard Pevear</h1>
-                </li>
-
-                 <li class="books col-sm-2">
+                    <h2 class="book-author">By Richard Pevear</h1>
+                </div><!-- /grid-item  -->
+                   <div class="grid-item books">
                 <a href="">
                     <img src="img/cahiers/cover-cahier2.jpg" alt="">
                 </a>
                     <h1 class="book-title"><i>Walking on Air</i></h1>
-                    <h2 class="book-author">Muriel Spark</h1>
-                </li>
-
-                <li class="books col-md-2">
-                <a href="book.html">
+                    <h2 class="book-author">By Muriel Spark</h1>
+                </div><!-- /grid-item  -->
+                 <div class="grid-item books">
+                <a href="">
                     <img src="img/cahiers/cover-cahier1.jpg" alt="">
                 </a>
                     <h1 class="book-title"><i>Translating Music</i></h1>
-                    <h2 class="book-author">Richard Pevear</h1>
-                </li>
-
-                 <li class="books col-md-2">
+                    <h2 class="book-author">By Richard Pevear</h1>
+                </div><!-- /grid-item  -->
+                   <div class="grid-item books">
                 <a href="">
                     <img src="img/cahiers/cover-cahier2.jpg" alt="">
                 </a>
                     <h1 class="book-title"><i>Walking on Air</i></h1>
-                    <h2 class="book-author">Muriel Spark</h1>
-                </li>
-</div>
-
-<div class="row">
-                <li class="books col-md-2">
-                <a href="book.html">
+                    <h2 class="book-author">By Muriel Spark</h1>
+                </div><!-- /grid-item  -->
+                 <div class="grid-item books">
+                <a href="">
                     <img src="img/cahiers/cover-cahier1.jpg" alt="">
                 </a>
                     <h1 class="book-title"><i>Translating Music</i></h1>
-                    <h2 class="book-author">Richard Pevear</h1>
-                </li>
-                 <li class="books col-md-2">
+                    <h2 class="book-author">By Richard Pevear</h1>
+                </div><!-- /grid-item  -->
+                   <div class="grid-item books">
                 <a href="">
                     <img src="img/cahiers/cover-cahier2.jpg" alt="">
                 </a>
                     <h1 class="book-title"><i>Walking on Air</i></h1>
-                    <h2 class="book-author">Muriel Spark</h1>
-                </li>
-
-                <li class="books col-md-2">
-                <a href="book.html">
+                    <h2 class="book-author">By Muriel Spark</h1>
+                </div><!-- /grid-item  -->
+                 <div class="grid-item books">
+                <a href="">
                     <img src="img/cahiers/cover-cahier1.jpg" alt="">
                 </a>
                     <h1 class="book-title"><i>Translating Music</i></h1>
-                    <h2 class="book-author">Richard Pevear</h1>
-                </li>
-                 <li class="books col-md-2">
-                    <a href="">
-                        <img src="img/cahiers/cover-cahier2.jpg" alt="">
-                    </a>
+                    <h2 class="book-author">By Richard Pevear</h1>
+                </div><!-- /grid-item  -->
+                   <div class="grid-item books">
+                <a href="">
+                    <img src="img/cahiers/cover-cahier2.jpg" alt="">
+                </a>
                     <h1 class="book-title"><i>Walking on Air</i></h1>
-                    <h2 class="book-author">Muriel Spark</h1>
-                </li>
-</div> <!-- /row -->
+                    <h2 class="book-author">By Muriel Spark</h1>
+                </div><!-- /grid-item  -->
+
+       
+            </ul>
+    </div><!-- /grid -->
 </div><!-- end of wrapper -->
 
- 
+ <script>$('.grid').isotope({
+  // options
+  itemSelector: '.grid-item',
+  layoutMode: 'fitRows'
+,
+});
+ </script>
 </body>
 
 </html>

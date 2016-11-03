@@ -27,8 +27,11 @@ body{
     overflow: scroll;
  }
 
-.grid-item{width: 25%;}
-.grid-item--width2{width: 50%;}
+.grid-item{ 
+  position: relative;
+  float: left;
+  width: 250px;
+}
 
 .sidebar-nav li {
     line-height: 20px;
@@ -44,10 +47,10 @@ body{
 }
 
 .sidebar-nav li a:hover {
-  -webkit-transform: translate(2em,0);
-  -moz-transform: translate(2em,0);
-  -o-transform: translate(2em,0);
-  -ms-transform: translate(2em,0);
+  -webkit-transform: translate(1em,0);
+  -moz-transform: translate(1em,0);
+  -o-transform: translate(1em,0);
+  -ms-transform: translate(1em,0);
 }
 .logo img{
 	width: 140px;
@@ -58,9 +61,14 @@ body{
 .books{
 	margin: 10px;
 }
-.now-on{
-transform: translate(2em,0);
-    font-weight: bold;}
+
+.now-on {
+  padding-right: 2px;
+  padding-left: 2px;
+font-size: 13px;
+  color: white;
+  background-color: #E50000;
+  }
 
 .books img{
 	width: 100%;
@@ -74,6 +82,7 @@ transform: translate(2em,0);
 	margin-top: 0;
 	font-size: 13px;
 	text-align: center;
+  color: black;
 }
 .wrapper{
 	margin-top: 20px;
@@ -135,5 +144,8 @@ input{
 }/* end max-width 991 */
 
 @media screen and (max-width:767px){
+.logo img{
+  width: 50px;
 
+}
 }/* end max-width 767 */

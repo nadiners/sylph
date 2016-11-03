@@ -2,11 +2,14 @@
 width: 50%;	
 }
 
-.cahiers-text{
+.cahiers-top{
 	margin-top: 50px;
 	border-bottom: 1px solid;
+	
 }
-
+.cahiers-text{
+	color: black;
+}
 .cahiers img{
 	width: 100%;
 }
@@ -20,16 +23,19 @@ width: 50%;
 	border-bottom: 1px solid;
 }
 
+.long-text{color: black;}
+.meta-book {color:rgba(0,0,0,0.6);}
 .buy img{width: 40px;}
 .title-book{font-weight: bold;}
 .row{margin-left: 0;}
-.press{font-weight: bold;}
-.more-detail{
+.press{
 	margin-top: 30px;
+	font-weight: bold;}
+.more-detail{
 	margin-left: -40px;}
 .more-detail li a{
 	text-decoration: none;
-	color: #e50000;
+	color: black;
 	width: 250px;
   -webkit-transition: all 1s ease-in-out;
   -moz-transition: all 1s ease-in-out;
@@ -44,12 +50,16 @@ width: 50%;
 }
 .special{font-weight: bold;
 text-transform: uppercase;
-letter-spacing: 0.1em;}
+letter-spacing: 0.1em;
+color: #E50000;}
 
 .bookshelf-cahier{margin-top: 50px;
 }
 .bookshelf-cahier li{list-style: none;}
-.cahiers-special a img{ width: 40px; }
+.cahiers-special a img{ width: 40px;
+ }
+ .cahiers-special{color:rgba(0,0,0,0.6);}
+
 .cahiers-series img{
 z-index: -1;
 	margin-top:-90px;

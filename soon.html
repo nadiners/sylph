@@ -11,6 +11,7 @@
     <script>try{Typekit.load({ async: true });}catch(e){}</script>
     <script src="js/jquery-3.1.0.min.js"></script>
     <script src="bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+    <script src="js/isotope.pkgd.min.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="UTF-8">
     <title>Sylph Editions</title>
@@ -23,7 +24,7 @@
         <div class="logo"><a href="index.html"><img src="img/sylphlogo.svg"></a></div>
 
             <li><a href="index.html">Current Titles</a></li>
-            <li class="now-on"><a href="soon.html">Coming Soon</a></li>
+            <li><span class="now-on">Coming Soon</span></li>
             <li><a href="cahier.html">The Cahiers Series</a></li>
             <li><a href="http://www.rasikabooks.com/">Rasika</a></li>
             <li><a href="">Catalogue</a></li>
@@ -65,78 +66,74 @@
 
 </div><!-- end of sidebar-wrapper -->
 
-        <!-- Page Content -->
+<!-- Page Content -->
         <div class="wrapper">
-            
+            <div class="grid">
             <ul class="bookshelf">
-        <div class="row">
-                <li class="books col-sm-2">
-                <a href="zbook.html">
-                    <img src="img/angolaforweb.jpg" alt="">
-                </a>
-                    <h1 class="book-title"><i>Arte Angola</i></h1>
-                    <h2 class="book-author">Edited by Na'ama Margalit</h1>
-                </li>
 
-                 <li class="books col-sm-2">
+                 <div class="grid-item books">
                 <a href="">
                     <img src="img/angolaforweb.jpg" alt="">
                 </a>
                     <h1 class="book-title"><i>Arte Angola</i></h1>
                     <h2 class="book-author">Edited by Na'ama Margalit</h1>
-                </li>
+                </div><!-- /grid-item  -->
 
-                 <li class="books col-sm-2">
+                 <div class="grid-item books">
                 <a href="">
                     <img src="img/angolaforweb.jpg" alt="">
                 </a>
                     <h1 class="book-title"><i>Arte Angola</i></h1>
                     <h2 class="book-author">Edited by Na'ama Margalit</h1>
-                </li>
+                </div><!-- /grid-item  -->
 
-                 <li class="books col-sm-2">
+                    <div class="grid-item books">
                 <a href="">
                     <img src="img/angolaforweb.jpg" alt="">
                 </a>
                     <h1 class="book-title"><i>Arte Angola</i></h1>
                     <h2 class="book-author">Edited by Na'ama Margalit</h1>
-                </li>
-          </div><!-- /row  -->    
-          <div class="row">  
-                 <li class="books col-sm-2">
+                </div><!-- /grid-item  -->
+                     <div class="grid-item books">
                 <a href="">
                     <img src="img/angolaforweb.jpg" alt="">
                 </a>
                     <h1 class="book-title"><i>Arte Angola</i></h1>
                     <h2 class="book-author">Edited by Na'ama Margalit</h1>
-                </li>
-                 <li class="books col-sm-2">
+                </div><!-- /grid-item  -->
+                                    
+                 <div class="grid-item books">
                 <a href="">
                     <img src="img/angolaforweb.jpg" alt="">
                 </a>
                     <h1 class="book-title"><i>Arte Angola</i></h1>
                     <h2 class="book-author">Edited by Na'ama Margalit</h1>
-                </li>
-                 <li class="books col-sm-2">
+                </div><!-- /grid-item  -->
+                     <div class="grid-item books">
                 <a href="">
                     <img src="img/angolaforweb.jpg" alt="">
                 </a>
                     <h1 class="book-title"><i>Arte Angola</i></h1>
                     <h2 class="book-author">Edited by Na'ama Margalit</h1>
-                </li>
-                 <li class="books col-sm-2">
+                </div><!-- /grid-item  -->
+                                     <div class="grid-item books">
                 <a href="">
                     <img src="img/angolaforweb.jpg" alt="">
                 </a>
                     <h1 class="book-title"><i>Arte Angola</i></h1>
                     <h2 class="book-author">Edited by Na'ama Margalit</h1>
-                </li>    
-            </div><!-- /row -->
+                </div><!-- /grid-item  -->
+       
             </ul>
-
+    </div><!-- /grid -->
 </div><!-- end of wrapper -->
-
- 
+ <script>$('.grid').isotope({
+  // options
+  itemSelector: '.grid-item',
+  layoutMode: 'fitRows'
+,
+});
+ </script>
 </body>
 
 </html>
