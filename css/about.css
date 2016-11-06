@@ -4,10 +4,22 @@ color: black; }
 .city{ text-transform: uppercase;
 	letter-spacing: .1em;
 	margin-bottom: 20px;
-	margin-top: 20px;
+	margin-top: 30px;
 }
 .store{
 font-weight: bold;
 margin-bottom: 5px;
 }
 .store a{ color: #E50000;}
+.bookstore{margin-top: 20px;
+font-weight: bold;}
+.shop_img{
+	width: 80px;
+	height: 80px;
+	border: 2px solid;
+}
+/*.shop-wrap{margin-top: 20px;}*/
+.contact-page{margin-left: 20px;}
+.shop-address{color: black;}
+.email a{color: black}
+.email {color: black}

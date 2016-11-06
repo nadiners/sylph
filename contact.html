@@ -12,6 +12,7 @@
     <script>try{Typekit.load({ async: true });}catch(e){}</script>
     <script src="js/jquery-3.1.0.min.js"></script>
     <script src="bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+    <script src="js/isotope.pkgd.min.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="UTF-8">
     <title>Sylph Editions</title>
@@ -41,7 +42,7 @@
              
             <li class="sort"></li>
             <li><a href="about.html">About Us</a></li>
-            <li class="now-on">Contact</li>
+            <li><span class="now-on">Contact</span></li>
       
             <li class="search">
                 <form action="">
@@ -67,67 +68,124 @@
 </div><!-- end of sidebar-wrapper -->
 
         <!-- Page Content -->
-        <div class="wrapper">
-        <div class="row aboutus">
-                 <div class="col-md-6">
-
-</div>
-</div><!-- /row -->
-<div class="row">
-
-<div class="col-sm-4">
-<p> address?
-    info@sylpheditions.com 
-or phone +44 (0)207 625 3223
+        <div class="wrapper" style="margin-left: 20px">   
+<p class="bookstore"> Contact us at:</p>
+<p class="email">
+    <a href="mailto:info@sylpheditions.com" target="_top">info@sylpheditions.com</a> <br>
+    tel: +44 (0)207 625 3223
 </p>
 
-<p>Bookshops</p>
-<ul>
-    <li class="city">London</li>
-    <li>
+<p class="bookstore">Bookshops:</p>
+<div class="london">
+<div class="city">London</div>
+<div class="grid-item shop-wrap"> 
+<div class="col-sm-4 shop_img"></div>
+    <div class="col-sm-8">
         <div class="store"><a href="">London Review Bookshop</a></div>
-        <p>14 Bury Place <br>
+        <p class="shop-address">14 Bury Place <br>
         London WC1A 2JL <br>
         020 7269 9030</p>
-    </li>
-    <li>
-        <div class="store">Foyles at Southbank Centre</div>
-        <p>Southbank Centre <br>
+    </div>
+</div>
+<div class="grid-item shop-wrap">
+<div class="col-sm-4 shop_img"></div>
+    <div class="col-sm-8">
+        <div class="store"><a href="">Foyles at Southbank Centre</a></div>
+        <p class="shop-address">Southbank Centre<br>
         London SE1 8XX <br>
         020 7440 3212</p>
-    </li>
-    <li class="city">England</li>
-    <li>
-        <div class="store">Sky Lark</div>
-        <p>The Needlemakers <br>
+    </div>
+</div>
+<div class="grid-item shop-wrap">
+<div class="col-sm-4 shop_img"></div>
+    <div class="col-sm-8">
+        <div class="store"><a href="">Foyles at Southbank Centre</a></div>
+        <p class="shop-address">Southbank Centre<br>
+        London SE1 8XX <br>
+        020 7440 3212</p>
+    </div>
+</div>
+<div class="grid-item shop-wrap">
+<div class="col-sm-4 shop_img"></div>
+    <div class="col-sm-8">
+        <div class="store"><a href="">Foyles at Southbank Centre</a></div>
+        <p class="shop-address">Southbank Centre<br>
+        London SE1 8XX <br>
+        020 7440 3212</p>
+    </div>
+</div>
+<div class="grid-item shop-wrap">
+<div class="col-sm-4 shop_img"></div>
+    <div class="col-sm-8">
+        <div class="store"><a href="">Foyles at Southbank Centre</a></div>
+        <p class="shop-address">Southbank Centre<br>
+        London SE1 8XX <br>
+        020 7440 3212</p>
+    </div>
+</div>
+<div class="grid-item shop-wrap">
+<div class="col-sm-4 shop_img"></div>
+    <div class="col-sm-8">
+        <div class="store"><a href="">Foyles at Southbank Centre</a></div>
+        <p class="shop-address">Southbank Centre<br>
+        London SE1 8XX <br>
+        020 7440 3212</p>
+    </div>
+</div>
+</div><!-- /london -->
+
+ 
+<!--     <div class="city">England</div>
+    <div class="england">
+    <div class="grid-item shop-wrap">
+<div class="col-sm-4 shop_img"></div>
+    <div class="col-sm-8">
+        <div class="store"><a href="">Sky Lark</a></div>
+        <p class="shop-address">The Needlemakers<br>
         1 West Street <br>
         Lewes BN7 2NZ <br>
-        01273 479418</p>
-    </li>
-    <li class="city">Paris</li>
-    <li class="city">Berlin</li>
-    <li class="city">New York</li>
-    <li class="city">San Francisco</li>
-    <li class="city">Los Angeles</li>
-    <li class="city">Seattle</li>
-    <li class="city">Portland</li>
-    <li class="city">Denver</li>
-</ul>
+        01273 479418
+        </p>
+    </div>
+</div>
+   <div class="grid-item shop-wrap">
+<div class="col-sm-4 shop_img"></div>
+    <div class="col-sm-8">
+        <div class="store"><a href="">Sky Lark</a></div>
+        <p class="shop-address">The Needlemakers<br>
+        1 West Street <br>
+        Lewes BN7 2NZ <br>
+        01273 479418
+        </p>
+    </div>
+</div>
+</div> --><!-- /england -->
 
-<p>Distribution</p>
-<p>Sylph Editions is distrbuted by University of Chicago Press. For details contact:
- 
-International orders
-US and Canada orders
- 
-See Sylph Editions on UCP website.</p>
-</div><!-- /col-sm-4 -->
-            </div> <!-- /row /aboutus -->
+<!--     <div class="city">San Francisco</div>
+    <div class="city">New York</div>
+    <div class="city">Los Angeles</div>
+    <div class="city">Seattle</div>
+    <div class="city">Portland</div>
+    <div class="city">Denver</div> -->
 
-
+<div class="row">
+        <p>Distribution</p>
+        <p>Sylph Editions is distrbuted by University of Chicago Press. For details contact:
+         
+        International orders
+        US and Canada orders
+         
+        See Sylph Editions on UCP website.</p>
+</div>
 </div><!-- end of wrapper -->
 
- 
+ <script>$('.grid').isotope({
+  // options
+  itemSelector: '.grid-item',
+  layoutMode: 'fitRows'
+,
+});
+ </script>
 </body>
 
 </html>
