@@ -10,6 +10,9 @@ width: 50%;
 .cahiers-text{
 	color: black;
 }
+.cahiers-text a{
+	color: #E50000;;
+}
 .cahiers img{
 	width: 100%;
 }
@@ -25,17 +28,24 @@ width: 50%;
 
 .long-text{color: black;}
 .meta-book {color:rgba(0,0,0,0.6);}
-.buy img{width: 40px;}
+.buy img{width: 40px;
+margin-left: 15px;
+margin-right: 15px;}
+.buy{margin-bottom: 40px;}
+.buy a{color: black;}
 .title-book{font-weight: bold;}
 .row{margin-left: 0;}
 .press{
+	color: #E50000;
 	margin-top: 30px;
+	margin-bottom: 10px;
 	font-weight: bold;}
 .more-detail{
+	color: black;
 	margin-left: -40px;}
 .more-detail li a{
 	text-decoration: none;
-	color: black;
+	color:#E50000;
 	width: 250px;
   -webkit-transition: all 1s ease-in-out;
   -moz-transition: all 1s ease-in-out;

@@ -88,6 +88,7 @@ font-size: 13px;
 	margin-top: 20px;
 		position: relative;
 		left: 20%;
+    margin-left: 30px;
 }
 .bookshelf{
 	display: block;
@@ -111,6 +112,7 @@ form p {margin-bottom: 2px;}
 input{
     border: 1px solid #dd0707;
 }
+input:focus{outline: none;}
 .signup{
     font-size: 12px;
     margin-top: -1px;
@@ -133,6 +135,10 @@ input{
   -webkit-box-shadow: 0 0 1px rgba(255,255,255,.5);
 }
 
+/*//////Rasika////////*/
+.rasika-blurb{padding-top: 30px;
+padding-bottom: 30px;}
+
 /* ==========================================================================
    Media queries
    ========================================================================== */
@@ -144,8 +150,21 @@ input{
 }/* end max-width 991 */
 
 @media screen and (max-width:767px){
+.logo{ }
 .logo img{
-  width: 50px;
-
+margin:10px;
+  height:52px;
 }
+.fix-header{
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+  background-color: white;
+}
+.menu-more{}
+.mobile-menu{margin-top: 0px;} 
+.mobile-menu li{
+  text-align: center;
+margin-bottom: 10px;}
+.page_nav_toggle{ background: url(img/icons/menu.svg); }
 }/* end max-width 767 */
