@@ -1,5 +1,3 @@
-
-
 a:link, a:hover, a:visited, a:active {text-decoration: none;}
 a {text-decoration: none;}
 ul li{list-style: none;}
@@ -112,6 +110,11 @@ form p {margin-bottom: 2px;}
 input{
     border: 1px solid #dd0707;
 }
+
+::-webkit-input-placeholder {
+   color: rgba(255,0,0,.5);
+}
+
 input:focus{outline: none;}
 .signup{
     font-size: 12px;
@@ -134,11 +137,33 @@ input:focus{outline: none;}
   background-color: #dd0707;
   -webkit-box-shadow: 0 0 1px rgba(255,255,255,.5);
 }
+/*scrollbar firefox*/
+.scrollbar-dynamic{
+
+}
+
+/*//////mobile///////*/
+#search-form{
+  display: none;
+  width: 50%;
+  height: 20px;
+  margin: auto;
+}
 
 /*//////Rasika////////*/
 .rasika-blurb{padding-top: 30px;
 padding-bottom: 30px;}
 
+/*//////error////////*/
+.error{
+  font-size: 18px;
+  color: black;}
+.error-back { background-color: #e50000;
+  color:white;
+  padding-left: 3px;
+  padding-right: 3px;
+ }
+.error-img img{width: 300px;}
 /* ==========================================================================
    Media queries
    ========================================================================== */
@@ -150,19 +175,55 @@ padding-bottom: 30px;}
 }/* end max-width 991 */
 
 @media screen and (max-width:767px){
+html{border-right: 3px solid #E50000;
+border-left: 3px solid #E50000;}
 .logo{ }
 .logo img{
-margin:10px;
-  height:52px;
+  margin-top:10px;
+  margin-bottom:10px;
 }
+
+.dropdown-menu{
+    display: block;
+    position: static;
+}
+
+ul.dropdown-menu {
+   -webkit-background-clip: padding-box;
+   background-clip: padding-box;
+   border: 0;
+   border-radius: 0;
+   -webkit-box-shadow: 0 0 0;
+   box-shadow: 0 0 0;
+}
+
+.state{color: white;
+      background-color: #E50000;
+      padding-left: 2px;
+      padding-right: 2px;
+}
+.grid-item{ width: 100%; }
+.books{margin: 0;
+margin-left: -33px;}
 .fix-header{
-  position: fixed;
-  width: 100%;
+  width: 98%;
+  margin-top: -20px;
   z-index: 100;
   background-color: white;
+  position: fixed;
+  border-bottom: 1px solid #E50000;
 }
-.menu-more{}
-.mobile-menu{margin-top: 0px;} 
+.mob-more{}
+.mob-more img{
+  margin-top:10px;
+  width: 42px;
+margin-left:8px; 
+  }
+.mob-more li{
+  float: right;
+  display: inline-block;
+}
+.mobile-menu{} 
 .mobile-menu li{
   text-align: center;
 margin-bottom: 10px;}

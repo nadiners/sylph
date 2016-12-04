@@ -32,7 +32,29 @@ width: 50%;
 margin-left: 15px;
 margin-right: 15px;}
 .buy{margin-bottom: 40px;}
-.buy a{color: black;}
+.buy a{color: black;
+}
+/*.buy-price{ text-decoration: line-through;
+color: #e50000;
+}
+*/
+
+.buy-price{
+    position: relative;
+    display: inline-block;
+}
+
+.buy-price span {
+	z-index: 100;
+    position: absolute;
+     width: 100%;
+    border-top: 1px solid red;
+    left: 0;
+    top: 50%;
+}
+
+.availablity {font-style: italic;
+color: #E50000;}
 .title-book{font-weight: bold;}
 .row{margin-left: 0;}
 .press{
